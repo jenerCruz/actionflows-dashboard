@@ -1,0 +1,14 @@
+{
+  "name": "Gmail Workflow",
+  "on": [
+    {
+      "trigger": "gmail",
+      "filter": "from:someone@example.com"
+    }
+  ],
+  "jobs": [
+    {
+      "run": "echo \"Nuevo correo recibido\""
+    }
+  ]
+}
